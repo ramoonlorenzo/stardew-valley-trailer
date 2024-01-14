@@ -5,15 +5,15 @@ const modal = document.querySelector(".modal");
 const trailerLink = trailer.src;
 
 function modalAlt() {
-    modal.classList.toggle("open");
+  modal.classList.toggle("open");
 }
 
 buttonTrailer.addEventListener("click", () => {
-    modalAlt();
-    trailer.setAttribute("src", trailerLink);
+  modalAlt();
+  trailer.setAttribute("src", trailerLink);
 });
 
 buttonModalClose.addEventListener("click", () => {
-    modalAlt();
-    trailer.setAttribute("src", "");
+  modalAlt();
+  trailer.setAttribute("src", "");
 });

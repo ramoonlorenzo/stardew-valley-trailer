@@ -1,136 +1,137 @@
 body {
-    font-family: "Poppins";
-    background: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(https://pt.stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/stardewbackground.png);
+  font-family: "Poppins";
+  background: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://pt.stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/stardewbackground.png);
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    max-width: 1440px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .header .logo {
-    width: 200px;
+  width: 200px;
 }
 
 .header .navbar {
-    display: flex;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .header nav li a {
-    font-weight: bold;
-    color: #fff;
-    font-size: 25px;
-    padding: 10px 20px;
-    border-radius: 50px;
-    transition: 0.2s;
+  font-weight: bold;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: 0.2s;
 }
 
 .header nav li a:hover {
-    background-color: #68d6ff;
+  background-color: #68d6ff;
 }
 
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 30px 30px;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px 30px;
 }
 
 .container .title {
-    max-width: 500px;
+  max-width: 500px;
 }
 
 .container .description {
-    border: 9px solid transparent;
-    border-radius: 10px;
-    border-image: url(https://pt.stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/menu_border.png) 15 stretch;
-    background-color: rgba(255, 255, 255, 0.7);
-    color: #333;
-    width: 85%;
-    font-size: 18px;
-    padding: 10px 10px;
-    margin: 30px 0;
-    text-align: center;
+  border: 9px solid transparent;
+  border-radius: 10px;
+  border-image: url(https://pt.stardewvalleywiki.com/mediawiki/extensions/StardewValley/images/menu_border.png)
+    15 stretch;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #333;
+  width: 85%;
+  font-size: 18px;
+  padding: 10px 10px;
+  margin: 30px 0;
+  text-align: center;
 }
 
 .description h2 {
-    color: #0066cc;
+  color: #0066cc;
 }
 
 .description span {
-    color: #ff6633;
+  color: #ff6633;
 }
 
 .container .banner {
-    width: 434px;
+  width: 434px;
 }
 
 .container .button-trailer {
-    background-color: #ff0021;
-    color: #fff;
-    padding: 15px;
-    font-size: 18px;
-    font-weight: bold;
-    cursor: pointer;
-    border: none;
-    border-radius: 10px;
-    text-transform: uppercase;
-    transition: 0.5s all ease-in-out;
+  background-color: #ff0021;
+  color: #fff;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  transition: 0.5s all ease-in-out;
 }
 
 .container .button-trailer:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .modal {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    top: 0;
-    left: 0;
-    background-color: rgba(52, 52, 50, 0.749);
-    opacity: 0;
-    visibility: hidden;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(52, 52, 50, 0.749);
+  opacity: 0;
+  visibility: hidden;
 }
 
 .modal-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  gap: 15px;
 }
 
 .modal-close {
-    background-color: #ff0021;
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
-    width: 40px;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 10px;
+  background-color: #ff0021;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
 }
 
 .modal iframe {
-    border-width: 0;
-    width: 640px;
-    height: 360px;
+  border-width: 0;
+  width: 640px;
+  height: 360px;
 }
 
 .modal.open {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }

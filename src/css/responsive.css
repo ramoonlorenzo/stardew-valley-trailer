@@ -1,56 +1,56 @@
 @media (max-width: 1200px) {
-    .container {
-        flex-wrap: wrap;
-        justify-content: center;
-        height: auto;
-        gap: 30px;
-    }
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    gap: 30px;
+  }
 
-    .container .information {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
+  .container .information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 
-    .container .description {
-        color: #333;
-        text-align: center;
-    }
+  .container .description {
+    color: #333;
+    text-align: center;
+  }
 
-    .container .button-trailer {
-        background-color: #ff0021;
-    }
+  .container .button-trailer {
+    background-color: #ff0021;
+  }
 }
 
 @media (max-width: 500px) {
-    .header {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-    }
+  .header {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
 
-    .container .title {
-        max-width: 18em;
-    }
+  .container .title {
+    max-width: 18em;
+  }
 
-    .container .banner {
-        max-width: 18em;
-    }
+  .container .banner {
+    max-width: 18em;
+  }
 
-    .modal .modal-close {
-        width: 30px;
-        line-height: 30px;
-    }
+  .modal .modal-close {
+    width: 30px;
+    line-height: 30px;
+  }
 
-    .modal #trailer {
-        width: 360px;
-        height: 169px;
-    }
+  .modal #trailer {
+    width: 360px;
+    height: 169px;
+  }
 }
 
 @media (max-width: 376px) {
-    .modal #trailer {
-        width: 250px;
-        height: 140px;
-    }
+  .modal #trailer {
+    width: 250px;
+    height: 140px;
+  }
 }
